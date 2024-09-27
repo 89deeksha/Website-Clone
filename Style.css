@@ -1,0 +1,116 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    color: white;
+    height: 100vh;
+    width: 100vw;
+}
+
+#parent {
+    width: 100%;
+    height: 100%;
+
+    background-image: url("https://images.pexels.com/photos/218392/pexels-photo-218392.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+#childiv-zero {
+    height: 5vw;
+    width: 100vw;
+    display: flex;
+    background-color: black;
+    margin-right: 200px;
+
+}
+
+
+
+
+
+
+#childiv-one {
+    height: 4vw;
+    width: 30vw;
+    display: flex;
+    margin-top: 2vw;
+    margin-left: 2vw;
+
+
+}
+
+.navbar {
+
+    display: flex;
+
+    text-align: left;
+    margin-right: 60px;
+    font-weight: lighter;
+
+
+
+}
+
+
+
+#childiv-two {
+    height: 2vw;
+    width: 1vw;
+    display: flex;
+    margin-top: 2vw;
+}
+
+#call {
+
+    height: 5vw;
+    width: 11vw;
+
+    font-weight: lighter;
+    display: flex;
+    margin-top: 0.1vw;
+    margin-left: 40vw;
+    background-color: rgb(102, 101, 101);
+    position: relative;
+    gap: 1vw;
+    padding: 1.5vw;
+
+}
+
+#call-icon {
+    color: orangered;
+}
+
+#phone-number {
+    /* height: 100vh;
+    width: 70vh;
+
+    margin-top: 2vw;
+    margin-left: 2vw;
+    display: flex; */
+    height: 0.8vw;
+    width: 18vw;
+    font-weight: lighter;
+    display: flex;
+    margin-left: 1.5vw;
+    margin-bottom: 1vw;
+    margin-top: 0.1%;
+    position: relative;
+
+
+
+    padding: 4.5vw;
+
+
+
+
+
+
+
+    background-color: orangered;
+}
